@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2023-08-14T01:06:01.667Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" version="21.6.8" etag="K8GNyjSIx4JuUwNQeSPq" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-14T01:07:18.535Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" version="21.6.8" etag="1KGy2tRLrTouqbfHiOzP" type="github">
   <diagram id="yHAGt3p8m7AsDcAoSCIJ" name="Page-1">
     <mxGraphModel dx="1102" dy="504" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3840" pageHeight="2400" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="FEiV0cqoIyy7e94Y_yFh-1" value="&lt;span style=&quot;font-weight: normal;&quot;&gt;&amp;lt;&amp;lt; interface &amp;gt;&amp;gt;&lt;br&gt;&lt;/span&gt;Payment" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="380" y="140" width="210" height="118" as="geometry" />
+        <mxCell id="FEiV0cqoIyy7e94Y_yFh-1" value="&lt;span style=&quot;font-weight: normal;&quot;&gt;&amp;lt;&amp;lt; interface &amp;gt;&amp;gt;&lt;br&gt;&lt;/span&gt;PaymentByPayPal" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="80" width="210" height="118" as="geometry" />
         </mxCell>
         <mxCell id="FEiV0cqoIyy7e94Y_yFh-4" value="+ collectPaymentDetails(): viod" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="FEiV0cqoIyy7e94Y_yFh-1">
           <mxGeometry y="40" width="210" height="26" as="geometry" />
@@ -15,6 +15,18 @@
         </mxCell>
         <mxCell id="FEiV0cqoIyy7e94Y_yFh-6" value="+ pay(int $amount):void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="FEiV0cqoIyy7e94Y_yFh-1">
           <mxGeometry y="92" width="210" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="FEiV0cqoIyy7e94Y_yFh-7" value="PaymentByPayPal" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="240" width="210" height="108" as="geometry" />
+        </mxCell>
+        <mxCell id="FEiV0cqoIyy7e94Y_yFh-8" value="+ collectPaymentDetails(): viod" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="FEiV0cqoIyy7e94Y_yFh-7">
+          <mxGeometry y="30" width="210" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="FEiV0cqoIyy7e94Y_yFh-9" value="+ validatePaymentDetails():bool" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="FEiV0cqoIyy7e94Y_yFh-7">
+          <mxGeometry y="56" width="210" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="FEiV0cqoIyy7e94Y_yFh-10" value="+ pay(int $amount):void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="FEiV0cqoIyy7e94Y_yFh-7">
+          <mxGeometry y="82" width="210" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
