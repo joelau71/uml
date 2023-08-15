@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-15T01:18:47.728Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" version="21.6.8" etag="1Od1w0LpIUn6aMYMbh2N" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-15T01:20:11.978Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" version="21.6.8" etag="u7WE44bsfRm53d6u4jLm" type="github">
   <diagram id="2tXDjWVBtzTvlOlx2N9X" name="Page-1">
     <mxGraphModel dx="926" dy="423" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3840" pageHeight="2400" math="0" shadow="0">
       <root>
@@ -17,7 +17,7 @@
           <mxGeometry y="138" width="140" height="182" as="geometry" />
         </mxCell>
         <mxCell id="TRd4f3PxuL4wZc3-VBU7-8" value="&amp;lt;&amp;lt;interface&amp;gt;&amp;gt;&lt;br&gt;&lt;b&gt;FlyBehavior&lt;/b&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="490" y="120" width="140" height="66" as="geometry" />
+          <mxGeometry x="530" y="120" width="140" height="66" as="geometry" />
         </mxCell>
         <mxCell id="TRd4f3PxuL4wZc3-VBU7-9" value="&amp;nbsp;+ fly()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="TRd4f3PxuL4wZc3-VBU7-8">
           <mxGeometry y="40" width="140" height="26" as="geometry" />
@@ -44,6 +44,24 @@
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="269" y="520" as="sourcePoint" />
             <mxPoint x="294" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TRd4f3PxuL4wZc3-VBU7-20" value="&lt;b&gt;CanFly&lt;/b&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="240" width="140" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="TRd4f3PxuL4wZc3-VBU7-21" value="&lt;b&gt;CantFly&lt;/b&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="240" width="140" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="TRd4f3PxuL4wZc3-VBU7-22" value="" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;" edge="1" parent="1" source="TRd4f3PxuL4wZc3-VBU7-20" target="TRd4f3PxuL4wZc3-VBU7-8">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="760" y="230" as="sourcePoint" />
+            <mxPoint x="734" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TRd4f3PxuL4wZc3-VBU7-23" value="" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;" edge="1" parent="1" source="TRd4f3PxuL4wZc3-VBU7-21" target="TRd4f3PxuL4wZc3-VBU7-8">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="679" y="250" as="sourcePoint" />
+            <mxPoint x="636" y="196" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
