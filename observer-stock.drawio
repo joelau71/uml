@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-16T06:07:03.944Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="dngVRkep6U0MlUbcfPnX" version="21.6.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-16T06:18:09.147Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="fP0Ixg0-QwSYl9dOx8OM" version="21.6.8" type="github">
   <diagram id="ol0al3_O7qeimlaXuuzj" name="Page-1">
     <mxGraphModel dx="1102" dy="504" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -63,6 +63,24 @@
         </mxCell>
         <mxCell id="6RVkD7acKFJWYVjltDq_-12" value="0..n" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=top;" connectable="0" vertex="1" parent="6RVkD7acKFJWYVjltDq_-11">
           <mxGeometry x="-1" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6RVkD7acKFJWYVjltDq_-16" value="&lt;b&gt;StockObserver&lt;/b&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="240" width="160" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="6RVkD7acKFJWYVjltDq_-25" value="&lt;b&gt;StockObserver2&lt;/b&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="240" width="150" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="6RVkD7acKFJWYVjltDq_-34" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;" edge="1" parent="1" source="6RVkD7acKFJWYVjltDq_-16" target="n4xZi3wqIaFylWsxnWv0-5">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="225" y="270" as="sourcePoint" />
+            <mxPoint x="225" y="208" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6RVkD7acKFJWYVjltDq_-35" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;" edge="1" parent="1" source="6RVkD7acKFJWYVjltDq_-25" target="n4xZi3wqIaFylWsxnWv0-5">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="502" y="250" as="sourcePoint" />
+            <mxPoint x="545" y="156" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
